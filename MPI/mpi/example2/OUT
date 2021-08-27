@@ -1,0 +1,25 @@
+Running on host compute084.bc4.acrc.priv
+Time is Sat Dec 21 13:38:08 GMT 2019
+Directory is /mnt/storage/home/ya17227/mpi/example2
+Slurm job ID is 2935933
+
+This job runs on the following machines:
+compute[084-085]
+
+Running send_recv.exe
+messages recieved by rank 0 (master):
+recieved message: Come-in Danny-Boy, this is process 1!
+
+Running simple-pingpong.exe
+length   time/message (usec)    transfer rate (Gbyte/sec)
+1	      5.238533               0.000764
+1001	      20.901918               0.191561
+2001	      21.690488               0.369010
+3001	      19.545555               0.614155
+4001	      19.888401               0.804690
+5001	      20.544052               0.973712
+6001	      20.890594               1.149034
+7001	      21.277547               1.316129
+8001	      21.868467               1.463477
+9001	      25.727987               1.399410
+10001	      26.324511               1.519648

@@ -1,0 +1,91 @@
+Running on host compute099.bc4.acrc.priv
+Time is Sun Dec 22 23:39:55 GMT 2019
+Directory is /mnt/storage/home/ya17227/mpi/example6
+Slurm job ID is 2941999
+
+This job runs on the following machines:
+compute099
+
+Running broadcast.exe
+time (s) to send all the messages point-to-point = 0.073012
+time (s) to broadcast the message = 0.006685
+
+timing resolution is 0.000001 (s)
+
+Running reduce_trapezoid.exe
+rank 0:	local_n 1
+rank 0:	local_a 0.000000, local_b 0.066667
+rank 0:	local_sum 0.266077
+rank 7:	local_n 1
+rank 7:	local_a 0.466667, local_b 0.533333
+rank 7:	local_sum 0.213295
+rank 11:	local_n 1
+rank 11:	local_a 0.733333, local_b 0.800000
+rank 11:	local_sum 0.168006
+rank 1:	local_n 1
+rank 1:	local_a 0.066667, local_b 0.133333
+rank 1:	local_sum 0.263748
+rank 2:	local_n 1
+rank 2:	local_a 0.133333, local_b 0.200000
+rank 2:	local_sum 0.259209
+rank 3:	local_n 1
+rank 3:	local_a 0.200000, local_b 0.266667
+rank 3:	local_sum 0.252686
+rank 4:	local_n 1
+rank 4:	local_a 0.266667, local_b 0.333333
+rank 4:	local_sum 0.244481
+rank 5:	local_n 1
+rank 5:	local_a 0.333333, local_b 0.400000
+rank 5:	local_sum 0.234943
+rank 6:	local_n 1
+rank 6:	local_a 0.400000, local_b 0.466667
+rank 6:	local_sum 0.224432
+rank 8:	local_n 1
+rank 8:	local_a 0.533333, local_b 0.600000
+rank 8:	local_sum 0.201845
+rank 9:	local_n 1
+rank 9:	local_a 0.600000, local_b 0.666667
+rank 9:	local_sum 0.190347
+rank 10:	local_n 1
+rank 10:	local_a 0.666667, local_b 0.733333
+rank 10:	local_sum 0.179013
+rank 13:	local_n 1
+rank 13:	local_a 0.866667, local_b 0.933333
+rank 13:	local_sum 0.147401
+rank 14:	local_n 1
+rank 14:	local_a 0.933333, local_b 1.000000
+rank 14:	local_sum 0.137926
+rank 12:	local_n 1
+rank 12:	local_a 0.800000, local_b 0.866667
+rank 12:	local_sum 0.157443
+
+Definite integral from 0.000000 to 1.000000 estimated as 3.140852 (using 15 trapezoids)
+(error: 0.0007407405665525)
+
+Running scatter_gather.exe
+srun: Warning: can't honor --ntasks-per-node set to 21 which doesn't match the requested tasks 22 with the number of requested nodes 1. Ignoring --ntasks-per-node.
+Message length is: 3
+Total length of original string is: 66
+rank 0, fragment:	Whe
+rank 2, fragment:	hal
+rank 5, fragment:	hre
+rank 9, fragment:	ain
+rank 15, fragment:	igh
+rank 16, fragment:	tni
+rank 18, fragment:	 or
+rank 19, fragment:	 in
+rank 21, fragment:	in?
+rank 1, fragment:	n s
+rank 3, fragment:	l w
+rank 4, fragment:	e t
+rank 6, fragment:	e m
+rank 7, fragment:	eet
+rank 8, fragment:	 ag
+rank 10, fragment:	? I
+rank 11, fragment:	n t
+rank 12, fragment:	hun
+rank 13, fragment:	der
+rank 14, fragment:	, l
+rank 20, fragment:	 ra
+rank 0, gathered:	When shall we three meet again? In thunder, lightning, or in rain?
+rank 17, fragment:	ng,

@@ -1,0 +1,101 @@
+Running on host compute096.bc4.acrc.priv
+Time is Sun Dec 22 15:32:25 GMT 2019
+Directory is /mnt/storage/home/ya17227/mpi/example5
+Slurm job ID is 2941732
+
+This job runs on the following machines:
+compute096
+
+skeleton 1
+
+rank 0: Message from Young (process 3)
+rank 0: Message from Stills (process 1)
+rank 1: Message from Crosby (process 0)
+rank 1: Message from Nash (process 2)
+rank 2: Message from Stills (process 1)
+rank 2: Message from Young (process 3)
+rank 3: Message from Nash (process 2)
+rank 3: Message from Crosby (process 0)
+
+skeleton 2
+
+rank 0: Message from Stills (process 1)
+rank 0: Message from Young (process 3)
+rank 1: Message from Nash (process 2)
+rank 1: Message from Crosby (process 0)
+rank 2: Message from Young (process 3)
+rank 2: Message from Stills (process 1)
+rank 3: Message from Crosby (process 0)
+rank 3: Message from Nash (process 2)
+
+skeleton 2- simple2d
+
+NROWS: 4
+NCOLS: 16
+Initialised grid:
+-1.0 0.0 0.0 0.0 0.0 -1.0  -1.0 1.0 1.0 1.0 1.0 -1.0  -1.0 2.0 2.0 2.0 2.0 -1.0  -1.0 3.0 3.0 3.0 3.0 -1.0  
+-1.0 0.0 0.0 0.0 0.0 -1.0  -1.0 1.0 1.0 1.0 1.0 -1.0  -1.0 2.0 2.0 2.0 2.0 -1.0  -1.0 3.0 3.0 3.0 3.0 -1.0  
+-1.0 0.0 0.0 0.0 0.0 -1.0  -1.0 1.0 1.0 1.0 1.0 -1.0  -1.0 2.0 2.0 2.0 2.0 -1.0  -1.0 3.0 3.0 3.0 3.0 -1.0  
+-1.0 0.0 0.0 0.0 0.0 -1.0  -1.0 1.0 1.0 1.0 1.0 -1.0  -1.0 2.0 2.0 2.0 2.0 -1.0  -1.0 3.0 3.0 3.0 3.0 -1.0  
+
+Grid after halo-exchange.
+Notice that:
+ - the core cells are unchanged
+ - the halo cells now have values derived
+   from the core cells of neighbouring ranks
+3.0 0.0 0.0 0.0 0.0 1.0  0.0 1.0 1.0 1.0 1.0 2.0  1.0 2.0 2.0 2.0 2.0 3.0  2.0 3.0 3.0 3.0 3.0 0.0  
+3.0 0.0 0.0 0.0 0.0 1.0  0.0 1.0 1.0 1.0 1.0 2.0  1.0 2.0 2.0 2.0 2.0 3.0  2.0 3.0 3.0 3.0 3.0 0.0  
+3.0 0.0 0.0 0.0 0.0 1.0  0.0 1.0 1.0 1.0 1.0 2.0  1.0 2.0 2.0 2.0 2.0 3.0  2.0 3.0 3.0 3.0 3.0 0.0  
+3.0 0.0 0.0 0.0 0.0 1.0  0.0 1.0 1.0 1.0 1.0 2.0  1.0 2.0 2.0 2.0 2.0 3.0  2.0 3.0 3.0 3.0 3.0 0.0  
+
+
+skeleton 2-heated plate
+
+NROWS: 4
+NCOLS: 16
+Final temperature distribution over heated plate:
+  0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00 
+100.00  55.91  41.35  36.26  34.42  33.74  33.49  33.41  33.41  33.49  33.74  34.42  36.26  41.35  55.91 100.00 
+100.00  82.28  73.23  69.29  67.69  67.06  66.82  66.74  66.74  66.82  67.06  67.69  69.29  73.23  82.28 100.00 
+100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 
+
+
+skeleton 3
+
+rank 0: Message from Stills (process 1)
+rank 0: Message from Young (process 3)
+rank 1: Message from Nash (process 2)
+rank 1: Message from Crosby (process 0)
+rank 2: Message from Young (process 3)
+rank 2: Message from Stills (process 1)
+rank 3: Message from Crosby (process 0)
+rank 3: Message from Nash (process 2)
+
+skeleton 4
+
+rank 0: Message from Stills (process 1)
+rank 0: Message from Young (process 3)
+rank 1: Message from Nash (process 2)
+rank 1: Message from Crosby (process 0)
+rank 2: Message from Young (process 3)
+rank 2: Message from Stills (process 1)
+rank 3: Message from Crosby (process 0)
+rank 3: Message from Nash (process 2)
+
+deadlock
+
+Error: wrong number of processes (use 2 processes)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Error: wrong number of processes (use 2 processes)
+Error: wrong number of processes (use 2 processes)
+Error: wrong number of processes (use 2 processes)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3)
+slurmstepd: error: *** STEP 2941732.6 ON compute096 CANCELLED AT 2019-12-22T15:32:27 ***
+srun: error: compute096: tasks 0-3: Exited with exit code 1

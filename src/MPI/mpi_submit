@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#SBATCH --nodes 1
+#SBATCH --ntasks-per-node 1
+#SBATCH --partition veryshort
+#SBATCH --account COMS30005
+#SBATCH --job-name MPI
+#SBATCH --time 00:05:00
+#SBATCH --output OUT
+#SBATCH --exclusive
+
+
+# Use Intel MPI (make sure you compile with the same module and 'mpiicc')
+module load languages/intel/2018-u3
+
+
+# Print some information about the job
+echo
+echo "Running on host $(hostname)"
+echo "Time is $(date)"
+echo "Directory is $(pwd)"
+echo "Slurm job ID is $SLURM_JOB_ID"
+echo
+echo "This job runs on the following machines:"
+echo "$SLURM_JOB_NODELIST" | uniq
+echo
+
+# Enable using `srun` with Intel MPI
+export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
+
+#echo
+echo
+echo "1024 x 1024: ~ 0.03s"
+srun ./stencil 1024 1024 100
+echo
+echo "4096 x 4096: ~ 0.17s"
+srun ./stencil 4096 4096 100
+echo
+echo "8000 x 8000: ~ 1.3s"
+srun ./stencil 8000 8000 100
+echo
