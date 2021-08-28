@@ -19,6 +19,10 @@ Applied serial optimisations like compiler choice, compiler flags, data layouts,
 
 [click here for report](https://github.com/ya17227/High-Performance-Computing/blob/main/Serial%20Optimisation/report.pdf)
 
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/stencil.pgm" width=300> |
+| :-: |
+| *Stencil image (1024 x 1024)* |
+
 <br/>
 
 | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png" width=300> |
@@ -37,7 +41,16 @@ This approach is best suited for specialised problems characterised by a high de
 
 [click here for report](https://github.com/ya17227/High-Performance-Computing/blob/main/MPI/report.pdf)
 
-<br/>
+<br/><br/>
+
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/scatter.png" width=300> |
+| :-: |
+| *multi-core approach : scattering and gathering data* |
+
+
+<br/><br/><br/><br/><br/>
+
+
 
 | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png" width=600> |
 | :-: |
