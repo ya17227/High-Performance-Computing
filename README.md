@@ -39,12 +39,12 @@ This approach is best suited for specialised problems characterised by a high de
 
 <br/>
 
-| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png" width=400> |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png" width=600> |
 | :-: |
 | *code running on 1 core* |
 
 <br/>
 
-| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/56core.png" width=400> |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/56core.png" width=600> |
 | :-: |
 | *code running on 56 cores* |
