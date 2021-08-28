@@ -5,7 +5,7 @@ Implemented coding solutions using the University of Bristol's 600 teraflop supe
 
 For these assignments the weighted 5-point stencil problem was used. [more info](https://github.com/ya17227/High-Performance-Computing/blob/main/src/README.md)
 
-| ![blueCrystal](https://github.com/ya17227/High-Performance-Computing/blob/main/images/blueCrystal.png) |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/blueCrystal.png" width=400> |
 | :-: |
 | *UoB's Blue Crystal* |
 
@@ -15,8 +15,7 @@ Applied serial optimisations like compiler choice, compiler flags, data layouts,
 
 [click here for report](https://github.com/ya17227/High-Performance-Computing/blob/main/Serial%20Optimisation/report.pdf)
 
-
-| ![compilerFlag](https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png) |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png" width=200> |
 | :-: |
 | *compiler flags* |
 
@@ -31,10 +30,10 @@ This approach is best suited for specialised problems characterised by a high de
 
 [click here for report](https://github.com/ya17227/High-Performance-Computing/blob/main/MPI/report.pdf)
 
-| ![compilerFlag](https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png) |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png" width=300> |
 | :-: |
 | *code running on 1 core* |
 
-| ![compilerFlag](https://github.com/ya17227/High-Performance-Computing/blob/main/images/56core.png) |
+| <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/56core.png" width=300> |
 | :-: |
 | *code running on 56 cores* |
