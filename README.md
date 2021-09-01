@@ -1,7 +1,5 @@
 # High-Performance-Computing
-High performance computing module at University of Bristol.
-
-Implemented coding solutions using the University of Bristol's 600 teraflop supercomputer - Blue Crystal phase 4.
+High performance computing module at University of Bristol. Implemented coding solutions using the University of Bristol's 600 teraflop supercomputer - Blue Crystal phase 4.
 
 For assignments, the weighted 5-point stencil problem was used. [more info](https://github.com/ya17227/High-Performance-Computing/blob/main/src/README.md)
 
@@ -9,7 +7,7 @@ For assignments, the weighted 5-point stencil problem was used. [more info](http
 
 | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/blueCrystal.png" width=500> |
 | :-: |
-| *UoB's Blue Crystal* |
+| *University Of Bristol's Blue Crystal* |
 
 <br/>
 <br/>
