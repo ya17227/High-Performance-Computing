@@ -7,7 +7,7 @@ For assignments, the weighted 5-point stencil problem was used. [more info](http
 
 | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/blueCrystal.png" width=500> |
 | :-: |
-| *University Of Bristol's Blue Crystal* |
+| *UoB's Blue Crystal* |
 
 <br/>
 <br/>
