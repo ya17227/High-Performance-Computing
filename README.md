@@ -17,6 +17,10 @@ Applied serial optimisations like compiler choice, compiler flags, data layouts,
 
 [click here for report](https://github.com/ya17227/High-Performance-Computing/blob/main/Serial%20Optimisation/report.pdf)
 
+![](https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png) | ![](https://github.com/ya17227/High-Performance-Computing/blob/main/images/stencil.png) |
+:-------------------------:|:-------------------------: 
+ *Stencil image (1024 x 1024)* | *compiler flags*
+
 <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png"> | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/stencil.png" > |
 :-------------------------:|:-------------------------: 
  *Stencil image (1024 x 1024)* | *compiler flags*
