@@ -42,7 +42,7 @@ This approach is best suited for specialised problems characterised by a high de
 | *multi-core approach : scattering and gathering data* |
 
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 
  <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/1core.png" width=600> | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/56core.png" width=600>
