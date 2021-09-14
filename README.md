@@ -21,7 +21,7 @@ Applied serial optimisations like compiler choice, compiler flags, data layouts,
 :-------------------------:|:-------------------------: 
  *Stencil image (1024 x 1024)* | *compiler flags*
 
-<img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png"> | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/stencil.png" > |
+<img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/compilerFlag.png" width=600> | <img src="https://github.com/ya17227/High-Performance-Computing/blob/main/images/stencil.png" > |
 :-------------------------:|:-------------------------: 
  *Stencil image (1024 x 1024)* | *compiler flags*
 
